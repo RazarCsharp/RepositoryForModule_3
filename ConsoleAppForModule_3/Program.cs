@@ -6,9 +6,8 @@ namespace ConsoleAppForModule_3
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = "Jon";
-
+            string myName = "Jon";
+            
             Console.WriteLine(myName);
 
             Console.ReadKey();
