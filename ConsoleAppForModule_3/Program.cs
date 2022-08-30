@@ -23,13 +23,29 @@ namespace ConsoleAppForModule_3
             bool HaveIApet = true;
             double MyShoeSize = 37.5;
 
-            Console.WriteLine("\n My name is " + MyName + "\n My Age " + MyAge+ "\n Do I have a pet? " + HaveIApet + "\n My shoe size is " + MyShoeSize);
+            Console.WriteLine("\n My name is " + MyName + "\n My Age " + MyAge + "\n Do I have a pet? " + HaveIApet + "\n My shoe size is " + MyShoeSize);
 
-
+            Console.WriteLine("\t Привет,\n мир!");
+            string name = "Jane";
+            byte age = 27;
+            string favcolor = "black";
+            Console.WriteLine("{0} \n  {1} \n {2}", name, age, favcolor);
+            string text = Console.ReadLine();
             
-
-
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
+
+            // Задание 3.4.3
+            enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+
+
+
+        }
+        
     }
+    
 }
